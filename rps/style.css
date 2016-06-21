@@ -3,20 +3,19 @@ body{
     color:white;
 }
 
-.rock{
+.rock,.rock:hover{
     background:#4F4C3C;
     color:white;
 }
-.paper{
+.paper,.paper:hover{
     background:white;
     color:#4F4C3C;
 }
-.scissors{
+.scissors,.scissors:hover{
     background:#1B4C59;
     color:white;
 }
-.lizard{
-    background:#9FB541;
+
 }
 #win{
     
