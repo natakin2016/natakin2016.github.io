@@ -1,0 +1,25 @@
+body{
+    background:#BF502E;
+    color:white;
+}
+
+.rock{
+    background:#4F4C3C;
+    color:white;
+}
+.paper{
+    background:white;
+    color:#4F4C3C;
+}
+.scissors{
+    background:#1B4C59;
+    color:white;
+}
+.lizard{
+    background:#9FB541;
+}
+#win{
+    
+    font-weight: bold;
+}
+/**/
