@@ -6,14 +6,18 @@ body{
 .rock,.rock:hover{
     background:#4F4C3C;
     color:white;
+    font-size: 26px;
 }
 .paper,.paper:hover{
     background:white;
     color:#4F4C3C;
-}
+    font-size: 26px;
+        
+    }
 .scissors,.scissors:hover{
     background:#1B4C59;
     color:white;
+    font-size: 26px;
 }
 
 }
