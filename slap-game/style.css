@@ -1,6 +1,10 @@
 body{
-  background: url("https://images.alphacoders.com/217/217481.jpg");
   background-size: cover;
+}
+
+h1{
+  margin: 20px;
+  text-align: center;
 }
 
 .stage{
@@ -8,37 +12,10 @@ body{
   align-items: center;
   justify-content: space-around;
 }
-.player{
-  display: flex;
-}
 
-img.invert {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
+.sidebyside{
+  display:inline-block;
 }
-
-h1{
-  color: #fff;
-  margin: 20px;
-  padding: 35px;
-  text-align: center;
-}
-
-.dummy{
-  background: url(C:\source\projects\slap-game\jh.png) no-repeat;
-  position: absolute;
-  bottom: 20px;
-  left: 48%;
-  height: 130px;
-}
-.dummyhalf{
-  background: url(https://natakin2016.github.io/scarecrow.png) no-repeat;
-  position: absolute;
-  bottom: 20px;
-  left: 48%;
-  height: 130px;
+.margin-5{
+  margin: 5px;
 }
