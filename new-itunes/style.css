@@ -2,9 +2,16 @@ body{
   background:#2fcdf3;
 }
 
-.song{
- background:#2fcdf3; 
+.list-group-item{
+ background:#0b4e8c; 
  color:white;
  margin:5px;
- padding:5px;
+ font-size: 20px;
+ /*padding:5px;*/
+}
+.jumbotron{
+    background: white;
+}
+.lrg{
+    font-size:18px;
 }
