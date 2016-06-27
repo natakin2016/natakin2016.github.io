@@ -39,7 +39,6 @@ function drawSongs(songList){
     song=songList[i]
     elem=document.getElementById('songs-list')
     // This displays list contents
-    console.log(song.title+' by '+song.artist)
-    elem.innerHTML+='<li class="list-group-item text-center" >'+'<img style="float:left;" src="'+song.albumArt+'">'+song.title+' by '+song.artist+'<br>'+ song.collection+' for $'+song.price+'</li>'  }
-  
+    //console.log(song.title+' by '+song.artist)
+    elem.innerHTML+='<li class="list-group-item text-center" >'+'<img style="float:left;" src="'+song.albumArt+'">'+song.title+' by '+song.artist+ '<audio controls style="float:right;"> <source src="'+song.preview+'"   type="audio/mp4">'+'</audio>'+'<br>'+ song.collection+' for $'+song.price+'</li>'  } 
 }

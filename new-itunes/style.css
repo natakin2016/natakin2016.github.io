@@ -1,5 +1,6 @@
 body{
-  background:url(https://i.ytimg.com/vi/CdrPDfypTOQ/maxresdefault.jpg);
+  /*background:url(https://i.ytimg.com/vi/CdrPDfypTOQ/maxresdefault.jpg);*/
+   background:#2fcdf3;
    background-attachment: fixed;
    /*background-position: center; */
    background-size: 100%;
@@ -9,10 +10,11 @@ body{
 }
 
 .list-group-item{
- background:#0b4e8c; 
+ background:rgba(15, 140, 140, 0.9); 
  color:white;
  margin:5px;
  font-size: 20px;
+ opacity: 1;
  /*padding:5px;*/
 }
 .jumbotron{
