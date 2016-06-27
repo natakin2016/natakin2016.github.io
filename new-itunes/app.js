@@ -40,6 +40,6 @@ function drawSongs(songList){
     elem=document.getElementById('songs-list')
     // This displays list contents
     console.log(song.title+' by '+song.artist)
-    elem.innerHTML+='<li class="list-group-item text-center song" >'+'<img style="float:left;" src="'+song.albumArt+'">'+song.title+' by '+song.artist+'<br>'+ song.collection+' for $'+song.price+'</li>'  }
+    elem.innerHTML+='<li class="list-group-item text-center" >'+'<img style="float:left;" src="'+song.albumArt+'">'+song.title+' by '+song.artist+'<br>'+ song.collection+' for $'+song.price+'</li>'  }
   
 }
