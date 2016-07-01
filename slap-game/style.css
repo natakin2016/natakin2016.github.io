@@ -1,0 +1,21 @@
+body{
+  background-size: cover;
+}
+
+h1{
+  margin: 20px;
+  text-align: center;
+}
+
+.stage{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sidebyside{
+  display:inline-block;
+}
+.margin-5{
+  margin: 5px;
+}
