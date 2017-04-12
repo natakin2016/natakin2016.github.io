@@ -1,12 +1,24 @@
 /*Elements*/
 body{
-    background-color:#3498db;
-    color:#ecf0f1;
-    font-family: 'Roboto Slab', serif;
-    
+    background-size: cover;
+    max-width: 100%;
+    overflow-x:hidden; 
 }
 h1{
     font-size: 30px;
+}
+a:link,a:visited{
+    text-decoration: inherit;
+    color:inherit;
+}
+a:hover{
+   background:pink; 
+
+}
+
+/*Classes*/
+.transparent{
+    background:rgba(225, 225, 225, 0.5)
 }
 .head{
     font-family: 'Bungee Shade', cursive;
@@ -22,4 +34,40 @@ h1{
     }
 .nav{
     background:#e74c3c; 
+}
+.roboto-slab{
+    font-family: 'Roboto Slab', serif;
+}
+.raleway{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.vast-shadow{
+    font-family: 'Vast Shadow', cursive;
+}
+.italic{
+    font-style: italic;
+}
+.nbtn{
+    background:rgba(0, 0, 0, 0.2);
+    color:white;
+    boarder:2px solid white;
+    padding:3%;
+    margin-top:10%;
+}
+.portRows{
+    margin-bottom: 2%;
+}
+
+
+/*IDs*/
+#title{
+    font-size: 65px;;
+}
+#navHeader{
+    background: #c8412d;
+    color:white;
+    padding-top:1%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
 }
