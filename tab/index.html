@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Css CDNs-->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+                <link href="https://fonts.googleapis.com/css?family=BioRhyme|Montserrat" rel="stylesheet">
+                <link rel="stylesheet" href="style.css">
+        <!-- Javascript CDNs -->
+                <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+                <script src="https://use.fontawesome.com/72d5d3ee01.js"></script>
+        </head>
+    <body>
+        <section class="row" style="margin-bottom:20%">
+            <div class="col offset-s2 s6">
+            <h1 id="clock" class=" center-align lemon"></h1>
+            <h1 id="date" class="center-align"></h1>
+            <div id="quote" class="center-align"></div>
+
+            </div>
+
+            <div id='todo-list  ' class="col s4  right-align">
+                <section class="row">
+                    <form class="col offset-s7 s5">
+                        <h2 class="lemon">To do List</h2>
+                        <input type="text" id="todoListAdd" class="input-field  right-align" >
+                        
+                        <!--<button type="button"  id='addbutton' onclick="addItemToDoList($('#todoListAdd').val())"  class="btn btn-large btn-block btn-default">Add</button>-->
+                        
+                    </form>
+                </section> 
+                <ul  id="list">
+
+                </ul>
+                
+            </div>
+            </section>
+        </section>
+        <script src="animations.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

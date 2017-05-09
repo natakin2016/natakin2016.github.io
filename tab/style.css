@@ -1,0 +1,22 @@
+body{
+    overflow-y: hidden ! important;
+    overflow-x: hidden ! important;
+    background: url('assets/1.jpg') no-repeat;
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif; 
+    color:white;
+
+}
+#todo-list{
+
+}
+.lemon{
+    font-family: 'BioRhyme', serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;  
+}
+#clock{
+    font-size:300px;
+}
